@@ -16,7 +16,7 @@ usermod -a -G rtpproxy kamailio
 #./configure
 #make
 #make install
-#rtpproxy -u rtpproxy -l 37.187.176.224 -s udp:127.0.0.1:7722
+#rtpproxy -u rtpproxy -l xx.xx.xx.xx -s udp:127.0.0.1:7722
 
 sed -i "s|#RUN_KAMAILIO=yes|RUN_KAMAILIO=yes|g" /etc/default/kamailio 
 
